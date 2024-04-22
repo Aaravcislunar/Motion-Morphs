@@ -21,6 +21,7 @@
   }
 *{
     font-family: "Urbanist", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -503,7 +504,7 @@ body{
 }
 
 #services{
-    margin-top: 10rem;
+    margin-top: 3rem;
 }
 
 .services-container{
@@ -579,7 +580,7 @@ body{
     color:rgb(172 174 182);
 }
 
-#gs-div{
+#GetStarted{
     margin-top: 10rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -895,10 +896,6 @@ body{
 }
 .rt-text h1{
     font-size: 2rem;
-    
-    
-    
-    
 }
 
 .btn-book{
@@ -964,6 +961,98 @@ body{
 }
 .brand img{
     height: 15rem;
+}
+.faq-outer-container{
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    max-width: 80rem;
+}
+
+.faq-inner-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5rem;
+}
+
+.faq-headings{
+    color: white;
+    width: 45%;
+    
+}
+
+.faq-headings h2{
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+
+}
+
+.faq-headings p {
+    color:rgb(172 174 182);
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.faq-questions-container{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-top: 1.5rem;
+    gap: 1rem;
+    
+}
+
+.faq-questions{
+    background-color: rgb(41 48 65);
+    padding: 0rem 1.5rem;
+    border: 1px solid rgb(67 73 89);
+    border-radius: 1.5rem;
+    transition: transform 2s;
+    overflow: hidden;
+}
+
+.faq-question-heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.faq-question-heading h3{
+    color: white;
+    margin: 0;
+    font-weight: 600;
+}
+
+.faq-question-button button{
+    background-color: inherit;
+    padding: 0;
+    border: none;
+    padding-top: 0.2rem;
+}
+
+.faq-question-button button img{
+    height: 1rem;
+}
+
+.faq-question-answer{
+    color: rgb(172 174 182);
+    margin-bottom: 1rem;
+}
+
+.faq-dn{
+    display: none;
+    /* height: 0%; */
+}
+
+.faq-question-answer p{
+    margin: 0;
+    margin-top: 0.5rem;
 }
 
 /* transition-duration: .3s
