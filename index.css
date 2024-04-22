@@ -224,13 +224,13 @@ body{
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
-    width: 66.667%;
+    width: 88%;
     margin: 0 auto;
 }
 
 .h1-design{
     color: white;
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 1;
     font-weight: 700;
     margin: 0 auto;
@@ -989,7 +989,12 @@ body{
     line-height: 4rem;
     font-weight: 700;
     margin-bottom: 3rem;
+}
 
+.faq-headings span{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(58, 220, 255);
 }
 
 .faq-headings p {
