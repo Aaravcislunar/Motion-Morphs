@@ -1060,14 +1060,12 @@ body{
 }
 .carousel{
     margin: auto;
-    margin-top: 10rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    max-width: 80rem;
+    margin-top: 8rem;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    
 }
 .Chead{
     color: white;
@@ -1084,8 +1082,6 @@ body{
     padding: 50px;
     background-color:  rgb(41 48 65);
     border-radius: 1.5rem;
-
-
 }
 .videoframe{
     padding: 20px;
