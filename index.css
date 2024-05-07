@@ -1096,5 +1096,208 @@ body{
     transform: scale(1.01);
     transition: all ease 0.5s;
   }
+  @media only screen and (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    .brand-slide{
+        gap: 5rem;
+    }
+    @keyframes brand-animation {
+        to{
+            transform: translateX(calc(-50% - 2.5rem));
+        }
+    }
+    .outer-navigation{
+        display: none;
+    }
+    .header{
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .mr-4{
+        margin: 0;
+    }
+    .inline-heading{
+        width: 100%;
+    }
+    .h1-design{
+        font-size: 2rem;
+    }
+    .subheading{
+        font-size: 0.8rem;
+    }
+    .buttons-div{
+        margin-top: 2.5rem;
+    }
+    .btns a {
+        height: 2.5rem;
+        padding: 0 1rem;
+    }
+    .btns a span{
+        font-size: 0.8rem;
+    }
+    .points{
+        flex-direction: column;
+        padding: 1rem 0;
+        margin-top: 3rem;
+    }
+    .points-div h6{
+        font-size: 1rem;
+    }
+    .points-div p{
+        font-size: 0.8rem;
+    }
+    .heading-features{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    #features{
+        margin-top: 4rem;
+    }
+    .main-features{
+        width: 100%;
+    }
+    .main-features p{
+        font-size: 0.8rem;
+    }
+    .process{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .bl{
+        border: none;
+        border-top: 1px solid rgb(67 73 89);
+    }
+    .written{
+        margin: 1.5rem 0;
+    }
+    .written h5{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .written p{
+        font-size: 0.8rem;
+    }
+    .process-content-container{
+        padding: 1rem 1.5rem;
+    }
+    .process-content-container img{
+        width: 2rem;
+    }
+    #services{
+        margin-top: 3rem;
+    }
+    .services-container{
+        padding: 0 1.5rem;
+    }
+    .services-heading h2{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .services-heading p{
+        font-size: 0.8rem;
+        margin-top: 0;
+        width: 80%;
+    }
+    .services-heading{
+        margin-bottom: 2rem;
+    }
+    .cards-container{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin: 0 1rem;
+    }
+    .card{
+        padding: 1rem;
+    }
+    .cards-description{
+        margin-top: 0.5rem;
+    }
+    .cards-description h3{
+        font-size: 1rem;
+    }
+    .cards-description p{
+        font-size: 0.8rem;
+        margin: 0.5rem 0;
+    }
+    .testimonials-grid{
+        columns: 1;
+    }
+    .testimonials-heading h2{
+        font-size: 1.5rem;
+    }
+    .heading-features{
+        margin: 1rem 0;
+        line-height: 1.8rem;
+    }
+    .process{
+        margin-top: 2rem;
+    }
+    .testimonials-outer-container{
+        margin: 5rem 0;
+    }
+    .testimonials-heading{
+        margin-bottom: 2rem;
+    }
+    .testimonials-grid-boxes{
+        padding: 1.5rem 1.5rem;
+    }
+    .tgb-header-title h6{
+        font-size: 1rem;
+    }
+    .tgb-header-title p{
+        font-size: 0.8rem;
+    }
+    .tgb-content{
+        font-size: 0.8rem;
+    }
+    .faq-inner-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .faq-headings{
+        width: 100%;
+    }
+    .faq-questions-container{
+        width: 100%;
+    }
+    .faq-headings h2{
+        font-size: 1.5rem;
+        line-height: normal;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .faq-headings p{
+        font-size: 0.8rem;
+        margin: 0;
+        text-align: center;
+    }
+    .faq-question-heading h3{
+        font-size: 1rem;
+    }
+    .faq-questions{
+        padding: 1rem;
+    }
+    .faq-question-heading-container{
+        margin: 0;
+    }
+    .faq-question-button button img{
+        height: 0.8rem;
+    }
+    .faq-question-answer{
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+    .faq-outer-container{
+        margin: 3rem 0;
+    }
+    .footer{
+        display: none;
+    }
+}
 /* transition-duration: .3s
 transition-timing-function: cubic-bezier(.4,0,.2,1); */
