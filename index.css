@@ -1080,7 +1080,7 @@ body{
     
 }
 .videos{
-    width: 81%;
+    width: 90%;
     margin: auto;
     display: flex;
     padding: 3rem;
@@ -1365,7 +1365,7 @@ body{
         margin-bottom: 0;
     }
     .carousel{
-        margin: 2rem auto ;
+        margin: 2rem auto;
     }
     .videos{
         padding: 1.2rem;
