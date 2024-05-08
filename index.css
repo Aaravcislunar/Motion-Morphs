@@ -28,6 +28,7 @@ body{
     margin: 0px 0px;
     box-sizing: border-box;
     background-color: rgb(15 23 42);
+    overflow-x: hidden;
 }
 .header{
     background-color: rgb(147 51 234);
@@ -222,8 +223,8 @@ body{
 .outline-heading{
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 5rem;
-    width: 88%;
+    padding-top: 2rem;
+    max-width: 88%;
     margin: 0 auto;
 }
 
@@ -234,6 +235,7 @@ body{
     font-weight: 700;
     margin: 0 auto;
     text-align: center;
+    /* overflow-y: hidden; */
 }
 
 .subheading{
@@ -581,9 +583,8 @@ body{
 
 #GetStarted{
     margin-top: 10rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    margin-bottom: -1%;
+    margin: 4rem auto;
+    margin-bottom: 4rem;
 }
 
 .gs-grid-container{
@@ -851,7 +852,7 @@ body{
 }
 .end{
     background-color: rgb(41 48 65);
-    padding: 4rem;
+    padding: 3rem;
     width: 80%;
     margin: auto;
     margin-top: 0rem;
@@ -860,8 +861,6 @@ body{
     display: flex;
     flex-direction: row;
     color: white;
-    
-
 }
 .lf-text{
     
@@ -869,6 +868,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-right: 100px;
+    
     
 }
 .lf-text h1{
@@ -884,13 +884,13 @@ body{
 .rt-text{
     background-color: rgb(15 23 42);
     color: white;
-    padding: 50px;
+    padding: 80px;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 200px;
+    /* width: 500px;
+    height: 200px; */
     margin: auto;
 }
 .rt-text h1{
@@ -1059,14 +1059,17 @@ body{
     margin-top: 0.5rem;
 }
 .carousel{
-    margin: auto;
-    margin-top: 8rem;
+
+    margin: 5rem 3rem;
+    /* margin: 5rem 3rem; */
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    /* overflow-x: hidden; */
     
 }
+
 .Chead{
     color: white;
     font-size: 2.25rem;
@@ -1077,14 +1080,24 @@ body{
     
 }
 .videos{
+    width: 81%;
     margin: auto;
     display: flex;
-    padding: 50px;
+    padding: 3rem;
+    justify-content: space-between;
+    align-items: center;
     background-color:  rgb(41 48 65);
     border-radius: 1.5rem;
+    overflow-x: auto;
 }
 .videoframe{
     padding: 20px;
+}
+.videoframe iframe{
+    width: 270px;
+    height: 480px;
+    /* height: 30rem;
+    width: auto; */
 }
 .videos iframe{
 
@@ -1239,6 +1252,7 @@ body{
     }
     .testimonials-outer-container{
         margin: 5rem 0;
+        display: none;
     }
     .testimonials-heading{
         margin-bottom: 2rem;
@@ -1271,6 +1285,9 @@ body{
         margin-bottom: 1rem;
         text-align: center;
     }
+    .faq-headings h2 span{
+        font-size: 1.5rem;
+    }
     .faq-headings p{
         font-size: 0.8rem;
         margin: 0;
@@ -1297,6 +1314,69 @@ body{
     }
     .footer{
         display: none;
+    }
+    .end{
+        margin: 3rem auto;
+        margin-top: 2rem;
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+    .lf-text{
+        margin: 0;
+        width: 100%;
+    }
+    .lf-text h1{
+        font-size: 1rem;
+    }
+    .lf-text h2{
+        font-size: 0.8rem;
+    }
+    .rt-text{
+        padding: 1.5rem;
+        margin: auto;
+    }
+    .book h1{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .btn-book{
+        margin: auto;
+        margin-top: 0.8rem;
+    }
+    .btn-book a{
+        padding: 0.5rem 1.5rem;
+        height: auto;
+    }
+    .btn-book a span{
+        
+        font-size: 1rem;
+    }
+    .gs-heading-container{
+        width: 100%;
+    }
+    .gs-heading-container h1{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .gs-image-container img{
+        height: 6rem;
+    }
+    #GetStarted{
+        margin-bottom: 0;
+    }
+    .carousel{
+        margin: 2rem auto ;
+    }
+    .videos{
+        padding: 1.2rem;
+        width: 75%;
+        gap: 1.5rem;
+    }
+    .videoframe{
+        padding: 0;
+    }
+    .Chead{
+        margin-bottom: 2rem;
     }
 }
 /* transition-duration: .3s
